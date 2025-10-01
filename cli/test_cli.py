@@ -74,6 +74,7 @@ def test_version_show_command():
 # Tests for `show` subcommand
 # ----------------------------
 
+
 def test_show_ls():
     """Test the show command with ls."""
     result = run_cli(["show", "ls"])
