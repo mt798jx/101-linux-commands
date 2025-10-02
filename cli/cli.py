@@ -4,7 +4,7 @@ CLI entry point for the 101 Linux Commands application.
 
 import typer
 
-from commands import hello, list, version, show
+from commands import hello, list, show, version
 
 app = typer.Typer(help="101 Linux Commands CLI 🚀")
 app.add_typer(hello.app, name="hello")
